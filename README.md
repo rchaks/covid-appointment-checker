@@ -27,9 +27,7 @@ pip install -r requirements.txt
 
 ### Set Twilio credentials as environment variables
 
-Update the [update_and_runme.sh](update_and_runme.sh) with the Twilio credentials 
-(used to send the SMS message to notify of potential appointment availability). NOTE:
-you can just print messages to the screen if you don't want SMS texts to be sent.
+> NOTE: you can just print messages to the screen if you don't want SMS texts to be sent.
 
 You can create a [Twilio account](https://www.twilio.com/try-twilio) & use it
 to send a SMS _to the phone number that you signed up with_ for free. Once you have 
