@@ -78,7 +78,7 @@ class WebsiteChecker:
                 return message.text in response.text
         else:
             if isinstance(message.text, list):
-                return all(text in response.text for text in message.text)
+                return all(text not in response.text for text in message.text)
             else:
                 return message.text not in response.text
 
